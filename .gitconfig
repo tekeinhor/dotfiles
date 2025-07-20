@@ -1,0 +1,17 @@
+[user]
+	name = <firstname>
+	email = <firstname>.<lastname>@gmail.com
+[alias]
+	co = checkout
+	st = status
+	tree = log --graph --decorate --pretty=oneline --abbrev-commit
+	amend = commit -a  --amend --no-edit
+	l = log
+	pf = push -f
+	p = push
+	pl = pull
+	ac = !git add -A && git commit
+	fap = fetch --all --prune
+[core]
+	excludesfile = /Users/<firstname>/.gitignoreglobal
+
